@@ -8,7 +8,7 @@ body {
     display: grid ;
     grid-template-columns: auto auto auto auto; 
     grid-gap: 1%;
-    background-color: HEX#C0E0DE;
+    background: HEX#C0E0DE;
     padding: 5%;
     border: 5px ;
     width: 0 auto;
@@ -93,7 +93,7 @@ body {
     grid-row: 2;
 }
 #output {
- font-size: 5em;
+ font-size: 3em;
 }
 .item-output {
 
@@ -103,7 +103,7 @@ body {
     padding: 5%;
     border: 5%;
     text-align: center;
-    justify-content: stretch;
+    justify-content: space-around;
 }
 
 
@@ -125,7 +125,7 @@ body {
 
 .button {
     padding: 30%;
-    color: HEX#F7FFDD; 
+    background: HEX#F7FFDD; 
     border-radius: 30%;
     font-size: 1.2em;
     margin: 5%;
