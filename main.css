@@ -1,17 +1,23 @@
+body {
+    flex-wrap: wrap;
+    font-family: "garamond";
+    border: 3px;
+}
+
 .grid-container {
     display: grid ;
     grid-template-columns: auto auto auto auto; 
-    grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 5px;
-    border: 5px blue;
-    width: auto;
+    grid-gap: 1%;
+    background-color: HEX#C0E0DE;
+    padding: 5%;
+    border: 5px ;
+    width: 0 auto;
+    height: 0 auto;
 }
 
 .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 .itemc {
@@ -87,41 +93,43 @@
     grid-row: 2;
 }
 #output {
- 
+ font-size: 5em;
 }
 .item-output {
 
     grid-column: 2/5;
     grid-row: 1;
     width: 0 auto;
-    padding: 5px;
-    border: 5px solid blue;
+    padding: 5%;
+    border: 5%;
     text-align: center;
     justify-content: stretch;
 }
-#clear {
-    border-color: red; 
-    margin: 25px;
-    width: 25px;
-}
+
 
 .calculator
 
-.numrow {
+/* .numrow {
     border: 50px;
     border-style: solid;
-    border-color: blue;
     width: 2px;
-}
+} */
 
-.numbutt {
+.numbut {
     width: 0 auto;
-    padding: 5px;
-    border: 5px solid blue;
-    margin: 5px;
+    padding: 3%;
+    border: 3%;
+    margin: 3%;
     text-align: center;
 }
 
+.button {
+    padding: 30%;
+    color: HEX#F7FFDD; 
+    border-radius: 30%;
+    font-size: 1.2em;
+    margin: 5%;
+}
 
 
 
